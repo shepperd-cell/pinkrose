@@ -35,7 +35,7 @@ header {
 }
 
 .header_pc {
-	display: none;
+/*	display: none;*/
 }
 
 .header_sp {
@@ -334,49 +334,6 @@ h3 {
 }
 
 /*************************  事業内容(service) 英会話スクール事業 レッスン内容  ******************************/
-.tags1, .tags2, .tags3 {
-	font-size: 1.5rem;
-	padding-left: 30px;
-	margin: 0 5px;
-	display: flex;
-	align-items: center;
-	background: #2886cf;
-/*	border-radius: 8px 0 0 8px;*/
-	color: #fff;
-/*	display: inline-block;*/
-	height: 50px;
-	line-height: 16px;
-/*	padding: 0 2em 0 3em;*/
-	position: relative;
-	
-}
-
-.tags2::before, .tags3::before {
-	border: 25px solid transparent;
-	border-left-color: #fff;
-	border-right-width: 0;
-	content: '';
-	display: block;
-	height: 0;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 0;
-}
-
-.tags1::after, .tags2::after, .tags3::after {
-	border: 25px solid transparent;
-	border-left-color: #2886cf;
-	border-right-width: 0;
-	content: '';
-	display: block;
-	height: 0;
-	position: absolute;
-	right: -25px;
-	top: 0;
-	width: 0;
-}
-
 
 .lesson_content div.col-6 div {
 	border: 2px solid #64aef6;
@@ -390,7 +347,7 @@ h3 {
 }
 
 .lesson_content div.col-6 div img {
-	margin-bottom: -2px;
+	margin-bottom: -3px;
 }
 
 
@@ -564,18 +521,12 @@ footer .copyright {
 }
 
 
-/*************************  greeting.html  ******************************/
 
 
 
 
-
-
-
-
-
-@media (min-width: 992px) {
-	/* 992px以上 PCサイズ */
+@media (min-width: 768px) {
+	/* 768px以上 タブレットサイズ */
 	html {
 		font-size: 10px;
 	}
@@ -583,13 +534,10 @@ footer .copyright {
 	#wrapper {
 		padding-top: 0px;
 	}
-	
-	.header_sp {
-	display: none;
-}
-	
+
+
 	.header_pc {
-		display: block;
+		/*		display: block;*/
 		position: fixed;
 		left: 0;
 		top: 0;
@@ -611,7 +559,7 @@ footer .copyright {
 		display: block;
 		height: 90px;
 	}
-	
+
 	.first_logo a:hover {
 		background: #fff3f5;
 		border-radius: 0 0 0 40px;
@@ -622,24 +570,24 @@ footer .copyright {
 		align-items: center;
 		justify-content: center;
 		height: 90px;
-/*		padding: 0 30px;*/
+		/*		padding: 0 30px;*/
 	}
-	
+
 	.header_pc .first_logo a span img{
 		height: 60px;
-}
+	}
 
 	.nav ul li {
 		position: relative;
 		border-left: 1px solid #dddddd;
 	}
-	
+
 	.nav ul li a {
 		display: block;
 		width: 100%;
 		height: 90px;
 	}
-	
+
 	.nav ul li a.menu::after {
 		display: block;
 		content: "";
@@ -658,25 +606,25 @@ footer .copyright {
 		left: 0;
 	}
 
-/*
+	/*
 	.nav ul li.current::after {
-		display: block;
-		content: "";
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		background-color: #e07484;
-		width: 0;
-		height: 4px;
-	}
-*/
-	
-/*
+	display: block;
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: #e07484;
+	width: 0;
+	height: 4px;
+}
+	*/
+
+	/*
 	.nav ul li.current::after {
-		width: 100%;
-	}
-*/
-	
+	width: 100%;
+}
+	*/
+
 	.nav ul li.menu_last a::after {
 		right: 10%;
 	}
@@ -686,20 +634,32 @@ footer .copyright {
 	}
 
 	.nav ul li:hover {
-/*		background-color: #ffe6e6;*/
+		/*		background-color: #ffe6e6;*/
 	}
-	
+
 	.nav ul li a:hover {
 		background: #fff3f5;
 	}
-	
+
 	.nav ul li.menu_last a:hover {
 		background: #fff3f5;
 		border-radius: 0 0 40px 0;
 	}
-	
+
 	.nav ul li img {
 		padding: 5px 0;
+	}
+
+
+
+}
+
+
+
+@media (min-width: 992px) {
+	/* 992px以上 PCサイズ */
+	html {
+		font-size: 10px;
 	}
 
 
