@@ -333,6 +333,68 @@ h3 {
 	letter-spacing: 0.3rem;
 }
 
+/*************************  事業内容(service) 英会話スクール事業 レッスン内容  ******************************/
+.tags1, .tags2, .tags3 {
+	font-size: 1.5rem;
+	padding-left: 30px;
+	margin: 0 5px;
+	display: flex;
+	align-items: center;
+	background: #2886cf;
+/*	border-radius: 8px 0 0 8px;*/
+	color: #fff;
+/*	display: inline-block;*/
+	height: 50px;
+	line-height: 16px;
+/*	padding: 0 2em 0 3em;*/
+	position: relative;
+	
+}
+
+.tags2::before, .tags3::before {
+	border: 25px solid transparent;
+	border-left-color: #fff;
+	border-right-width: 0;
+	content: '';
+	display: block;
+	height: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+}
+
+.tags1::after, .tags2::after, .tags3::after {
+	border: 25px solid transparent;
+	border-left-color: #2886cf;
+	border-right-width: 0;
+	content: '';
+	display: block;
+	height: 0;
+	position: absolute;
+	right: -25px;
+	top: 0;
+	width: 0;
+}
+
+
+.lesson_content div.col-6 div {
+	border: 2px solid #64aef6;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.lesson_content div.col-6 div p {
+	padding: 5px 0;
+	line-height: 1.4;
+}
+
+.lesson_content div.col-6 div img {
+	margin-bottom: -2px;
+}
+
+
+
 
 .school ul li, .interpreter ul li {
 /*	font-family: 'Sawarabi Gothic', sans-serif;*/
