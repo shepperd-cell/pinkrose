@@ -333,6 +333,46 @@ h3 {
 	letter-spacing: 0.3rem;
 }
 
+
+.rinen {
+/*	background: url(../images/backup0.png) no-repeat top left, url(../images/backdown0.png) no-repeat bottom left;*/
+/*	background-size: contain;*/
+/*	height: 500px;*/
+	position: relative;
+	overflow: hidden;
+}
+
+.rinen div {
+	z-index: 10;
+	position: relative;
+}
+
+.rinen_head1 {
+	background-color: #99d0f1;
+	border-radius: 30px;
+	color: #000;
+}
+
+.rinen_head2 {
+	background-color: #e39dbb;
+	border-radius: 30px;
+	color: #000;
+}
+
+.rinen_img1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 500px;
+}
+
+.rinen_img2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	min-width: 500px;
+}
+
 /*************************  事業内容(service) 英会話スクール事業 レッスン内容  ******************************/
 
 .lesson_content div.col-6 div {
