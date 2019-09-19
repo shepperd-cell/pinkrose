@@ -340,6 +340,7 @@ h3 {
 /*	height: 500px;*/
 	position: relative;
 	overflow: hidden;
+	border: 15px solid #c75f6e;
 }
 
 .rinen div {
@@ -500,6 +501,7 @@ th, td {
 	border-bottom: 1px solid  #999;
 	line-height: 1.5;
 	font-size: 1.7rem;
+	vertical-align: middle;
 /*	padding: 15px;*/
 }
 
