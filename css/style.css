@@ -363,14 +363,14 @@ h3 {
 .rinen_img1 {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: -30px;
 	min-width: 600px;
 }
 
 .rinen_img2 {
 	position: absolute;
 	bottom: 0;
-	left: 0;
+	left: -65px;
 	min-width: 600px;
 }
 
